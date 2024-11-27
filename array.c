@@ -4,15 +4,15 @@ int main() {
     int n;
 
     int arr[10];
-    printf("Enter %d integers:\n", n);
-    for (int i = 0; i < n; i++) {
+    printf("Enter 10 integers:\n");
+    for (int i = 0; i < 10; i++) {
         scanf("%d", &arr[i]);
     }
 
     int pc = 0;
     int nc = 0;
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < 10; i++) {
         if (arr[i] > 0) {
             pc++;
         } else if (arr[i] < 0) {
