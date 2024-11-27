@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    
 
     int arr[10];
     printf("Enter 10 integers:\n");
